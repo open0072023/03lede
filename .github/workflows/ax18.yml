@@ -21,7 +21,7 @@ on:
 
 env:
   REPO_URL: https://github.com/wenpo1975/ipq6000-wifi
-  REPO_BRANCH: main
+  REPO_BRANCH: wifi
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: ./config/ax18.config
   DIY_P1_SH: diy-part1.sh
@@ -35,7 +35,7 @@ env:
 
 jobs:
   build:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-20.04
 
     steps:
     - name: Checkout
