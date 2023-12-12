@@ -20,7 +20,7 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/wenpo1975/ipq6000-wifi.git
+  REPO_URL: https://github.com/8688Add/ipq6000.git
   REPO_BRANCH: wifi
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: ./config/ax18.config
